@@ -3,6 +3,6 @@ node{
      git 'https://github.com/kishoredpt/sonar-runner'
    }
    stage('Compile-Package'){ 
-      sh "sonar-scanner"
+      sh "sonar-runner"
    }
 }
